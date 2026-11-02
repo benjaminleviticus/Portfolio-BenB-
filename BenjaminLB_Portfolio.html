@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BenjaminLB Portfolio</title>
+</head>
+<body>
+    <div id="home">
+        <header class="header">
+            <h2 class="logo">Portfolio</h2>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navigation">
+                <a href="#home" style="--i:0;">Home<span></span></a>
+                <a href="#about" style="--i:1;">About<span></span></a>
+                <a href="#projects" style="--i:2;">Project<span></span></a>
+            </nav>
+        </header>
+    </div>
+
+    <section class="parallax">
+        <h2 id="text">Hi! I am Benjamin Binoy<br/> Welcome to my portfolio</h2>
+        <img src="images/palm-right.png" id="palm-right">
+        <img src="images/palm-left.png" id="palm-left">
+        <img src="images/man1.png" id="man1">
+        <img src="images/grass.png" id="grass">
+    </section>
+
+    <section class="sec">
+        <div class="sec-about">
+            <h1 id="about">About Me</h1>
+            <p>I am a student at The University of Texas at Dallas, graduated in 2026 as BS in Computer Science. I am currently pursuing an graduate degree in Business Analytics and AI.  
+             I have learned HTML since high school and have accumulated experience with Java, C++ and Python.
+             I am planning to be a Data Analyst, I am interested in becoming a Data Analyst because I enjoy solving problems, working with technology, and finding patterns that others might overlook. 
+             My Computer Science background has helped me develop analytical and technical skills, and I want to apply those skills to real-world business challenges.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/benjamin-binoy-b7b747293?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BV1zf%2F50ATRSBy4jx7p1l3Q%3D%3D"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/ben000_horizon/"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+        </div>
+
+        <div class="sec-img">
+            <img src="images/port-img.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-grid">
+            <article class="card">
+                <img src="images/project1.png" alt="Screenshot of Project One">
+                <h3>Library AI Chat</h3>
+                <p>One or two sentences: what it does and what problem it solves.</p>
+                <ul class="tags"><li>Java</li><li>Swing</li></ul>
+                <div class="links">
+                    <a href="https://github.com/you/project-one">Code</a>
+                    <a href="https://you.github.io/project-one">Live demo</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/project2.png" alt="Screenshot of Project Two">
+                <h3>Mortgage OCR</h3>
+                <p>One or two sentences: what it does and what problem it solves.</p>
+                <ul class="tags"><li>Java</li><li>Swing</li></ul>
+                <div class="links">
+                    <a href="https://github.com/you/project-two">Code</a>
+                    <a href="https://you.github.io/project-two">Live demo</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
